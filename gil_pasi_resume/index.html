@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gil Pasi</title>
+    <link rel="stylesheet" href="indexStyle.css" type="text/css" />
+  </head>
+  <body>
+    <header data-h1="Gil Pasi">
+      <div class="first"></div>
+    </header>
+    <nav>
+      <div class="button">Knowledge</div>
+      <div class="button">Projects</div>
+      <div class="button">About</div>
+    </nav>
+
+    <article id="knowledge">
+      <section class="skills">
+        <div>
+          <h2>Languages</h2>
+        </div>
+
+        <div>
+          <ul>
+            <li><label for="prg1">Java</label></li>
+            <progress id="prg1" value="0.8" max="1"></progress>
+            <br /><br />
+            <li><label for="prg2">C++</label></li>
+            <progress id="prg2" value="0.8" max="1"></progress>
+            <br /><br />
+            <li><label for="prg3">Python</label></li>
+            <progress id="prg3" value="0.6" max="1"></progress>
+            <br /><br />
+          </ul>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div>
+          <h2>Platforms</h2>
+        </div>
+
+        <div>
+          <ul>
+            <li><label for="prg5">Android Studio</label></li>
+            <progress id="prg5" value="0.4" max="1"></progress>
+
+            <br /><br />
+            <li><label for="prg6">XML</label></li>
+            <progress id="prg6" value="0.4" max="1"></progress>
+
+            <br /><br />
+            <li><label for="prg7">HTML-CSS</label></li>
+            <progress id="prg7" value="0.6" max="1"></progress>
+          </ul>
+        </div>
+      </section>
+    </article>
+
+    <!--Image background is seperate from the rest of the div-->
+
+    <article id="projects">
+      <h2>Check out my projects</h2>
+      <div class="projects-content">
+        <section class="project" id="domino-project">
+          <h3>Domino</h3>
+          <hr />
+
+          <img
+            src="images/domino2.jpg"
+            alt="A digital domino game"
+            class="project-picture"
+          />
+          <h4 class="project-segment">A Domino-like game</h4>
+
+          <p class="project-segment">
+            Final task on the object oriented course. Possible to play either
+            against the computer or vs another player. The program will
+            determine automatically which side you wish to add your stone. If
+            both options are possible, it will ask for guidance.
+          </p>
+
+          <div class="project-progress-100 project-segment" data-progress="100">
+            100%
+          </div>
+          <div class="means project-segment">C++</div>
+        </section>
+
+        <section class="project" id="Hunters">
+          <h3>Hunters</h3>
+          <hr />
+
+          <img
+            src="images/hunters.jpg"
+            alt="Forest themed memory game"
+            class="project-picture"
+          />
+          <h4 class="project-segment">Mobile application</h4>
+          <p class="project-segment">
+            A memory-like game, only that in each turn the player take a look in
+            3 diffrent cards. Also there are additional rules: a player can go
+            "hunt" or "sleep".The main sturcture and data have already
+            placed.The job left is to take care of the remaining bugs.
+          </p>
+          <div class="project-progress-50 project-segment" data-progress="50">
+            50%
+          </div>
+          <div class="means project-segment">Java</div>
+          <div class="means project-segment">Android Studio</div>
+          <div class="means project-segment">XML</div>
+        </section>
+
+        <section class="project" id="character-builder-project">
+          <h3>Character builder</h3>
+          <hr />
+
+          <img
+            src="images/character-builder.jpg"
+            alt="diffrent characters and form fields"
+            class="project-picture"
+          />
+          <h4 class="project-segment">D&D sheet builder</h4>
+          <p class="project-segment">
+            It could be used for a potential Dungeons & Dragons game. The
+            structure is actually a &ltform&gt tag that spans the entire page.
+            This Project was done by using HTML only as a summerized task and
+            therefore still not responsive.
+          </p>
+
+          <div class="project-progress-80 project-segment" data-progress="80">
+            80%
+          </div>
+          <div class="means project-segment">HTML</div>
+        </section>
+      </div>
+    </article>
+  </body>
+</html>
